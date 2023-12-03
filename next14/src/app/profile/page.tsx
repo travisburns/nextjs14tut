@@ -18,7 +18,7 @@ export default function Profile() {
                 <Link href='/profile/1'>Profile 1</Link>
                 <Link href='/profile/2'> Profile 2</Link>
                 <Link 
-                    prefetch={true}
+                    prefetch={false}
                     href={{
                     pathname: '/profile/3',
                     query: {
@@ -32,7 +32,9 @@ export default function Profile() {
                 >
                     <div>A big square where I got some text</div>
                 </Link>
-                <a href="google.com">Site?</a>
+                <a href="https://codewithguillaume.com">
+                    Codewithguillaume's school online
+                </a>
 
                 
         </div>
