@@ -34,9 +34,7 @@ export default function Profile() {
                 </Link>
 
 
-                <a href="https://codewithguillaume.com">
-                    CodeWithGuillaume's school online
-                    </a>
+                
         </div>
         </div>
     )
