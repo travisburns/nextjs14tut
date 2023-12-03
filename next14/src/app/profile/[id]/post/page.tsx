@@ -1,3 +1,7 @@
-export default function ProfileIDPosts() {
+
+export default function ProfileIDPosts() { 
+
+
     return <div>My profile posts id</div>
+
 }
