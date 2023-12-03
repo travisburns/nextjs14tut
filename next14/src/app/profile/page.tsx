@@ -32,7 +32,7 @@ export default function Profile() {
                 >
                     <div>A big square where I got some text</div>
                 </Link>
-
+                <a href="google.com">Site?</a>
 
                 
         </div>
