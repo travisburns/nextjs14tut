@@ -5,7 +5,6 @@ export default function ProfileID() {
     const params = useParams();
     const router = useRouter()
 
-    console.log(params.id)
     return (
      <div>
         <h1> Profile page id: {params.id} </h1>
