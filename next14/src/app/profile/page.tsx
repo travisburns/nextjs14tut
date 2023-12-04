@@ -32,9 +32,7 @@ export default function Profile() {
                 >
                     <div>A big square where I got some text</div>
                 </Link>
-                <a href="https://codewithguillaume.com">
-                    Codewithguillaume's school online
-                </a>
+                
 
                 
         </div>
