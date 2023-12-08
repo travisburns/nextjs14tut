@@ -1,19 +1,19 @@
 "use client";
 
-import Header from "./components/Header";
-
+import Image from 'next/image';
+import me from '../../public/me.jpg';
 
 
 export default function Home() {
-  const name ="Guillaume"
-
+  
   return (
-
-
-   <div>
-    <Header name={"Guilaume"} age={35} isMan={true}/>
-    Main page of my application
-    <Header name={"Kevin"} age={24} isMan={true}/>
+    <div>
+      <div className=''>
+      <Image quality={1} src={me}  alt="?" />
+      </div>
+      
     </div>
+
+   
   )
 }
