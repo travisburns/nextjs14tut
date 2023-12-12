@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <div className=''>
-      <Image quality={1} src={me}  alt="?" />
+      <Image quality={100} src={me}  alt="?" />
       </div>
       
     </div>
